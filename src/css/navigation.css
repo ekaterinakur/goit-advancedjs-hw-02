@@ -1,0 +1,30 @@
+.nav-container {
+  width: 360px;
+  margin: 50px auto 0;
+  padding: 2em 1em 1em;
+  text-align: center;
+}
+
+.nav-container h1 {
+  margin-bottom: 50px;
+}
+
+.nav-container li {
+  margin-bottom: 1em;
+}
+
+.nav-container a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.nav-container a:hover {
+  background-color: var(--secondary-color);
+}

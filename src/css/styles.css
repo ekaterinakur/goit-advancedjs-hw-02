@@ -1,25 +1,51 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --primary-color: #4E75FF;
+  --secondary-color: #6C8CFF;
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
-
-  color: #242424;
+  color: #2e2e2e;
   background-color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.back-link {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+input[type=text],
+input[type=number] {
+  height: 36px;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+button:hover:not(:disabled) {
+  background-color: var(--secondary-color);
+}
+
+button:disabled {
+  opacity: 0.4;
 }

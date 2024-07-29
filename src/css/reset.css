@@ -1,4 +1,12 @@
 /* Reset styles */
+* {
+  box-sizing: border-box;
+}
+
+*:disabled {
+  cursor: default;
+}
+
 h1,
 h2,
 h3,
@@ -26,10 +34,21 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  outline: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
 }

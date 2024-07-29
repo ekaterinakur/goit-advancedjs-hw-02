@@ -1,0 +1,34 @@
+@import "flatpickr/dist/flatpickr.min.css";
+@import "izitoast/dist/css/iziToast.min.css";
+
+.timer-container {
+	width: 340px;
+	padding: 1.5rem;
+	margin: 0 auto;
+}
+
+.form {
+	display: flex;
+	gap: 1rem;
+}
+
+.form input {
+	flex: 1 1 0;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.value {
+	font-size: 2em;
+}
